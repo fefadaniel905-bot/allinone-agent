@@ -1,6 +1,6 @@
 {
-  "name": "allinone-trust-whatsapp-agent",
-  "version": "1.0.0",
+  "name": "allinone-agent",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,9 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "^14.2.0",
-    "react": "^18.3.0",
-    "react-dom": "^18.3.0",
+    "next": "14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@google/generative-ai": "^0.21.0",
     "@supabase/supabase-js": "^2.45.0"
   },
   "devDependencies": {
